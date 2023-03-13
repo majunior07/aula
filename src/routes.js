@@ -7,7 +7,8 @@ import Header from './components/Header';
 
 const Routes = () => {
     return(
-        <BrowserRouter>          
+        <BrowserRouter>    
+        <Header />      
            <switch>
                 <Route exact path="/" component={Home} /> 
                 <Route path="/sobre" component={Sobre} />
@@ -18,3 +19,7 @@ const Routes = () => {
 }
 
 export default Routes;
+
+
+
+
