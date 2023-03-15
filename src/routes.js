@@ -18,7 +18,8 @@ const Routes = () => {
                 <Route path="/produto/:id" component={Produto} />
 
                 <Route path="*" component={Erro} />
-                {/* <Route path="*" component={Erro} /> a rota de not fund tem que ser sempre a ultima das rotas. */}
+                {/* <Route path="*" component={Erro} /> a rota de not fund tem 
+                que ser sempre a ultima das rotas. */}
            </Switch>    
         </BrowserRouter>
     )

@@ -7,8 +7,11 @@ export default function Produto() {
         <div>
             <h1>Grade de produtos</h1><br/>
 
-            <spn>Produto selecionado: {id}</spn>
+            <span>Produto selecionado: {id}</span>
 
         </div>
     );
 }
+
+
+
